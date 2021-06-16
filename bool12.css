@@ -1,0 +1,37 @@
+/* RESET BOX SIZING */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CLASSIC CONTAINER */
+
+.container{
+    width: 100%;
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+/* CONTAINER FLUID */
+
+.container-fluid {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* FLEX */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* COLUMN AUTO */
+
+.col {
+    flex-grow: 1;
+}
+
+/* 12 COLUMN SYSTEM */
