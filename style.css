@@ -3,6 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    
+
+.container, .container-fluid{
+    border: 1px solid black;
+    min-height: 100px;
+}
+
+[class*="col"] {
+    min-height: 200px;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.Nested{
+    background-color: coral;
+    border: 8px solid pink;  
 }
