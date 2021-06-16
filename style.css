@@ -13,9 +13,19 @@
     min-height: 200px;
     background-color: pink;
     border: 1px solid black;
+    position: relative;
+    
 }
 
 .Nested{
     background-color: coral;
     border: 8px solid pink;  
+}
+
+p{
+    text-align: center;
+    position: absolute;
+    transform: translate( -50%, 50%);
+    top: 40%;
+    left: 50%;
 }
